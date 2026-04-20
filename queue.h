@@ -7,6 +7,8 @@ struct Queue {
     int data[MAX];
     int* front;
     int* rear;
+    int front;
+    int rear;
 };
 
 void init(Queue* q);
@@ -17,4 +19,3 @@ void dequeue(Queue* q);
 int front(const Queue* q);
 int back(const Queue* q);
 
-#endif
