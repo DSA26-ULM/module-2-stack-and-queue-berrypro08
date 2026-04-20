@@ -16,4 +16,6 @@ void enqueue(Queue* q, int value);
 void dequeue(Queue* q);
 int front(const Queue* q);
 int back(const Queue* q);
+void hasilQueue(int n, int k, int inputData[]);
 
+#endif

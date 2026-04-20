@@ -17,3 +17,4 @@ int pop(Stack* s);
 int peek(const Stack* s);
 int HasilOperasi(Stack* s, int n, std::string input[]);
 
+#endif
