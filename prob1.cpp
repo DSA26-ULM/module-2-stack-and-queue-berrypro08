@@ -9,7 +9,6 @@ int main(){
     string inputData[MAX];
     
     int n;
-    cout << "Masukkan Jumlah Bilangan: ";
     if (!(cin >> n)) return 0;
 
     for (int i = 0; i < n && i < MAX; i++) {
