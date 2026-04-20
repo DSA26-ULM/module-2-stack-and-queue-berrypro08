@@ -4,36 +4,23 @@
 using namespace std;
 
 void init(Stack* s){
-    s->top = -1;
 }
 
 bool isEmpty(const Stack* s){
-    return s->top == -1;
 }
 
 bool isFull(const Stack* s){
-    return s->top == MAX - 1;
 }
 
 void push(Stack* s, int value){
-    if (isFull(s)) {
-        throw "Stack penuh";
     }
-    s->data[++s->top] = value;
 }
 
 int pop(Stack* s){
-    if (isEmpty(s)) {
-        throw "Stack kosong";
     }
-    return s->data[s->top--];
 }
 
 int peek(const Stack* s){
-    if (isEmpty(s)) {
-        throw "Stack kosong";
-    }
-    return s->data[s->top];
 }
 
 int HasilOperasi(Stack* s, int n, string input[]){

@@ -5,8 +5,6 @@
 
 struct Queue {
     int data[MAX];
-    int front;
-    int rear;
 };
 
 void init(Queue* q);

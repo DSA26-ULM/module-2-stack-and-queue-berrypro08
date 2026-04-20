@@ -6,7 +6,6 @@
 
 struct Stack {
     int data[MAX];
-    int top;
 };
 
 void init(Stack* s);
